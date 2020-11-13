@@ -1,4 +1,5 @@
 Set objFso = CreateObject("Scripting.FileSystemObject")
+' change folder path
 Set Folder = objFSO.GetFolder("c:\test\")
 
 For Each File In Folder.Files
