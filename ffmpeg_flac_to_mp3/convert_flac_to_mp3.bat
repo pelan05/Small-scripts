@@ -27,7 +27,7 @@ for /r "%ROOT_DIR%" %%F in (*.flac) do (
         ffmpeg -i "!INPUT!" -c:a libmp3lame -q:a 0 "!OUTPUT!"
     )
 
-    if /i "!DELETE_FLAG!"=="--delete-origial" (
+    if /i "!DELETE_FLAG!"=="--delete-original" (
         echo Deleting original: !INPUT!
         del "!INPUT!"
     )
