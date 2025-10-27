@@ -1,5 +1,7 @@
-# Repo containing some small scripts I wrote or got online
+# Small Scripts Collection
 
--file renamer for windows
+A collection of utility scripts and commands:
 
--shell script that scrapes a file and creates json with the contents
+- **File Renamer** - Windows batch file renamer
+- **JSON Scraper** - Shell script to convert file contents to JSON
+- **FFmpeg Commands** - Useful video/audio/ image conversion commands
